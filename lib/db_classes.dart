@@ -41,7 +41,7 @@ class Transaction {
   double trx_time; //Zeitpunkt der Transaktion
   String geo_tag; //Location  of the device
   String desciption;
-//----------------------------------------------------------------------------------- endregion Variables
+  //----------------------------------------------------------------------------------- endregion Variables
 
   //--------------------------------------------------------------------------------- region Initialization
 
@@ -57,10 +57,20 @@ class Category extends Account{
 }
 //Can be any kind of Document including Receipts
 class Document{
+  //-------------------------------------------------------------------------------------- region Variables
   final int document_id;
   String name;
   Image document_image; //Repräsentation?
+  //----------------------------------------------------------------------------------- endregion Variables
+
 }
 
+//Partner sind Debitoren und Kreditoren auch deine Mutter
+class Partner{
+  final int partner_id;
+  String name;
+  String address;
+  String bankaccount;
 
+}
 
