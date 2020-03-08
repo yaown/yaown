@@ -65,7 +65,7 @@ class Document{
 
 }
 
-//Partner sind Debitoren und Kreditoren auch deine Mutter
+//Partner sind Debitoren und Kreditoren auch deine Mutter!
 class Partner{
   final int partner_id;
   String name;
